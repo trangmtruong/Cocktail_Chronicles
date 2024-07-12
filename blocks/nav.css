@@ -1,6 +1,8 @@
-.nav {
+.nav__bar {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* /* flex-direction: column; */
   justify-content: space-between;
   /* background-color: #fff; */
   position: relative;
@@ -11,7 +13,7 @@
   align-items: center;
   /* border-bottom: 1px solid #000; */
   box-shadow: 0 1px #0000003e;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 10;
 }
@@ -38,6 +40,8 @@
   padding-top: 30px;
   /* padding-bottom: 50px; */
   /* margin-left: auto; */
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .nav__link {

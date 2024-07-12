@@ -3,12 +3,14 @@
 
   /*also adjusted max-width to 100% to avoid content exceeding viewport width(TT)*/
   max-width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
-  flex-direction: column;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  align-items: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0 auto;
 }
