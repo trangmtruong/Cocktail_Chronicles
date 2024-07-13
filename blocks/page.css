@@ -2,10 +2,8 @@
   background-color: #d9e5fd;
   font-family: "Inter", Arial, sans-serif;
   min-width: 1100px;
-
-  /* max-width: 1600px; */
-
-  max-width: 100%;
+  position: relative;
+  max-width: 1600px;
 
   /* adjusted width to 100% to ensure content does no exceed viewport width*/
   font-size: 16px;

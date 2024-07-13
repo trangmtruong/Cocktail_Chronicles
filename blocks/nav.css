@@ -1,3 +1,12 @@
+.nav {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 400px;
+  bottom: 120px;
+}
+
 .nav__bar {
   display: flex;
   align-items: center;
@@ -9,25 +18,23 @@
   min-height: 50px;
   /* padding: 20px 50px; */
   /*removed top padding of 20px so the nav image moves all the way up since there's not a black border on top (TT)*/
-  padding-bottom: 50px;
+
   align-items: center;
   /* border-bottom: 1px solid #000; */
-  box-shadow: 0 1px #0000003e;
+  /* box-shadow: 0 1px #0000003e; */
   /* position: sticky; */
   top: 0;
   z-index: 10;
 }
 
 .nav__logo {
-  max-width: 300px;
+  max-width: 450px;
   position: absolute;
+  top: 0;
+  right: 700px;
   top: 0;
 }
 
-.nav__question {
-  max-width: 400px;
-  padding-top: 50px;
-}
 .nav__prompt {
   padding-top: 50px;
 }
@@ -37,7 +44,7 @@
   align-items: center;
   gap: 10px;
   list-style-type: none;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   /* padding-bottom: 50px; */
   /* margin-left: auto; */
   font-weight: bold;
