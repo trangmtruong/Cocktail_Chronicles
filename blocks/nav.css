@@ -62,3 +62,6 @@
 .nav__link:visited {
   color: inherit;
 }
+.nav__border-bottom {
+  border-bottom: 1px solid #000;
+}
